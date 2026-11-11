@@ -1,0 +1,13 @@
+# Ignore specific files
+.env
+secrets.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Ignore all files with a specific extension
+*.log
+*.tmp
+
+# Ignore an entire directory (must end with a slash)
+node_modules/
+dist/
